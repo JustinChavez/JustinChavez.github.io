@@ -11,3 +11,8 @@ img {
 a {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+.icon {
+    padding-right: 5px;
+    padding-left: 5px;
+}
