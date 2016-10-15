@@ -26,16 +26,6 @@ ul {
 	list-style-type: circle;
 }
 
-a {
-	color: #000000;
-}
-
-a:hover {
-	text-decoration: none;
-	background-color: #000000;
-	color: #FFFFFF;
-}
-
 /** HEADER */
 
 #header {
@@ -104,3 +94,42 @@ a:hover {
 ul li{
  font-size:15px;
 }
+
+a {
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    background-color: #FFFFFF
+
+}
+a:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #000000;
+background-color: #000000;
+	color: #FFFFFF;
+  transition: 0.4s;
+
+}
+
+a:hover:after {
+    width: 100%;
+    
+}
+
+/* use this for previous background transition
+a {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+*/
+
