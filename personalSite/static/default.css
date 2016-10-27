@@ -26,6 +26,17 @@ ul {
 	list-style-type: circle;
 }
 
+a {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
 /** HEADER */
 
 #header {
@@ -95,6 +106,8 @@ ul li{
  font-size:15px;
 }
 
+
+/* transition
 a {
     text-decoration: none;
     position: relative;
@@ -120,16 +133,8 @@ a:hover:after {
     
 }
 
-/* use this for previous background transition
-a {
-	color: #000000;
-}
-
-a:hover {
-	text-decoration: none;
-	background-color: #000000;
-	color: #FFFFFF;
-}
-
 */
+
+
+
 
