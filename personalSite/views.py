@@ -1,19 +1,19 @@
-from personalSite import app
+from personalSite import application
 from flask import render_template
 
-@app.route('/')
+@application.route('/')
 def index():
     #JLC since we are using template inheritance we must render the child template
     return render_template('index.html')
 
-@app.route('/Projects')
+@application.route('/Projects')
 def projects():
     return render_template('projects.html')
 
-@app.route('/Research')
+@application.route('/Research')
 def research():
     return render_template('research.html')
 
-@app.route('/Tutorials')
+@application.route('/Tutorials')
 def tutorials():
     return render_template('tutorials.html')
