@@ -1,3 +1,11 @@
 body { 
-    padding-top: 120px;
-    color: red; }
+    padding-top: 4em;
+    font-family: Arial, "Helvetica Neue" , Helvetica, sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Note this messes with .navbar-right*/
+.navbar-collapse {
+  text-align: center;
+}
