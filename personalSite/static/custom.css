@@ -3,6 +3,7 @@ body {
     font-family: Arial, "Helvetica Neue" , Helvetica, sans-serif;
     padding-left: 15%;
     padding-right: 15%;
+
 }
 
 /* Note this messes with .navbar-right*/
@@ -10,8 +11,8 @@ body {
   text-align: center;
 }
 
-li{
-  margin: 10px 0;
+#homepage-list li {
+ margin: 0px 0;   
 }
 
 #homepage-list li {
