@@ -17,3 +17,7 @@ def research():
 @application.route('/Tutorials')
 def tutorials():
     return render_template('tutorials.html')
+
+@application.route('/bs')
+def bsHW():
+    return render_template('boots.html')
