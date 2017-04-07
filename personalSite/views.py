@@ -18,6 +18,8 @@ def research():
 def tutorials():
     return render_template('tutorials.html')
 
-@application.route('/bs')
-def bsHW():
-    return render_template('boots.html')
+@application.route('/first-hackathon-project')
+def first_hackathon_project():
+    return render_template('FirstProject.html')
+
+

@@ -1,0 +1,64 @@
+{% extends "head.html" %}
+{% block content %}
+                    
+<h1><a id="Your_First_Hackathon_Project_How_to_Build_a_Personal_Website_0"></a>Your First Hackathon Project: How to Build a Personal Website</h1>
+<p>So it’s your first hackathon and you really want to be productive and build something right? You can not go wrong with building a personal website which you can then flesh out and use as the base of your hack.</p>
+<p>This is a great place to start because:</p>
+<ul>
+<li>You will be able to directly interact with HTML/CSS</li>
+<li>You will learn how to work with the open source development platform, Github</li>
+<li>Your website will automatically be hosted at no cost</li>
+</ul>
+<p>I believe there is no better teacher than experience so we will just jump right in!</p>
+<h2><a id="Build_the_Site_11"></a>Build the Site</h2>
+<p>We are going to build and host the website with the help of Github.</p>
+<ol>
+<li>First go to <a href="https://github.com/">https://github.com/</a> and register for an account</li>
+<li>Now follow <a href="https://pages.github.com/">this quick and simple guide</a> from Github begin creating your site. Be sure to follow the steps for the <strong>User or organization site</strong>.</li>
+<li>Great! Now you have a bare bones static site. Time to make it useful. Let’s go back to the <a href="https://pages.github.com/">github pages site</a>, but this time click and follow the instructions on the tab for  <strong>Project Site</strong>.</li>
+<li>Now you have a nice looking website with simple HTML and CSS code for you to customize! You may have noticed having to type a bunch of commands like add, commit and push. You are using the version control system git to manage the files at your created repository. Check out this <a href="https://try.github.io">quick tutorial</a> which explains in depth what each command does and more!</li>
+</ol>
+<h2><a id="Customization_19"></a>Customization</h2>
+<p>What’s next? I would mess around more with the HTML and CSS so you can get a feel for how they work. You could make lists, change fonts, embed a widget and so much more!</p>
+<p>I recommend looking at the guides from <a href="https://www.w3schools.com">w3schools</a> for some inspiration. Remember that what you can do with HTML and CSS is only define the layout and appearance of your website. If you want to program the behaviour of the website to add some interactivity, look into the JavaScript guide. If you want to input or retrieve data you should look into the SQL section.</p>
+<p>I would personally start with the Javascript guide since you can start working with it from everything we just set up.</p>
+<h2><a id="Free_domain_name_for_college_students_27"></a>Free domain name for college students</h2>
+<p>Notice the url of the site and how it has &quot;<a href="http://github.io">github.io</a>&quot; at the end. As a college student we can change that for free! Head over to the <a href="https://nc.me/">Namecheap for education site</a> and claim a free domain to customize your site with.</p>
+<p>You are now able to use the domain to represent your website’s address. Follow <a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">these instructions</a> from Github to connect your github site with the domain name.</p>
+<h2><a id="Fin_33"></a>Fin</h2>
+<p>Congrats! You now have your own hosted static website. It is yours to hack with and develop some web dev skills. This is a great start to completing a web dev hack or if you just want to have a website to show off your project.</p>
+
+<!--DISQUS -->
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://http-justin-chavez-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96974690-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+{% endblock %}
