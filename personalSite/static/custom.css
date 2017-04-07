@@ -9,3 +9,11 @@ body {
 .navbar-collapse {
   text-align: center;
 }
+
+li{
+  margin: 10px 0;
+}
+
+#homepage-list li {
+ margin: 0px 0;   
+}
