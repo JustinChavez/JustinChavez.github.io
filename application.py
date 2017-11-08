@@ -9,3 +9,13 @@ from flask import Flask
 if __name__ == '__main__':
 
     application.run()
+#from setuptools import setup
+
+#setup(
+#    name='personalSite',
+#    packages=['personalSite'],
+#    include_package_data=True,
+#    install_requires=[
+#        'flask',
+#    ],
+#)
