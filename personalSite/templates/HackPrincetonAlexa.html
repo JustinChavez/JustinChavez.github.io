@@ -8,19 +8,58 @@
 
 <h1></a>Amazon Alexa Workshop Installation Instructions</h1>
 
-<h4>I will go over all you need to prepare before the Amazon Alexa Workshop at HackPrinceton. If you have any questions please place them in the comments section below.</h4>
+  <h3> Install Python </h3>
 
-<p> This workshop will require Python. If you do not have Python set up or do not know how to access it follow this quick tutorial!: https://learnpythonthehardway.org/book/ex0.html</p>
+<p> This workshop will require Python. If you do not have Python set up or do not know how to access it follow this quick tutorial: https://learnpythonthehardway.org/book/ex0.html</p>
 
-<p> We will be using the framework Flask-Ask to build our Alexa Skill. Enter the following into your command line to install Flask-Ask onto your system.</p>
+<h3> Install pip </h3>
 
+<p>pip is a package management system used to install and manage software packages written in Python. Depending on your version of Python, pip may or may not already be installed. Installation instructions can be found here: https://pip.pypa.io/en/stable/installing/</p>
+
+<h3> Install and activate virtualenv </h3>
+
+  <p> virtualenv is a tool to create isolated Python environments. Since we will be using Python packages in this workshop, it is strongly recommended that you install the packages in virtualenv to avoid messing up with your global Python packages. You can install virtualenv by issuing the following commands in your terminal:  </p>
+
+  <pre>pip install virtualenv </pre>
+
+  <p> Create a new folder for your application: </p>
+
+  <pre>mkdir alexa-workshop </pre>
+  <pre>cd alexa-workshop </pre>
+
+ <p> Create virtualenv in your folder:  </p>
+ <pre> virtualenv venv</pre>
+
+  <p> Activate virtualenv:  </p>
+ <pre> source venv/bin/activate </pre>
+
+ You will know that you are working in virtualenv as the prompt of your shell/terminal will change to show the active environment. It should look similar to this:
+
+ <pre> (venv)$ </pre>
+
+
+<h3> Install packages </h3>
+<p> We will be using the framework Flask-Ask to build our Alexa Skill. Enter the following into your command line to install necessary packages </p>
+
+<pre>pip install flask</pre>
 <pre>pip install flask-ask</pre>
 
-<p>Note: Depending on your version of Python, pip may or may not already be installed. Installation instructions can be found here: https://pip.pypa.io/en/stable/installing/</p>
+<h3> Exit virtualenv </h3>
 
-<p>Finally download ngrok for your machine and be sure to unzip the file to a location you can remember: https://ngrok.com/download</p>
+  <p> After installing packages, you can exit the virtualenv by typing: </p>
+<pre>deactivate</pre>
 
-<p>All done! I hope to see you at the workshop. If you would like to keep updated about all beginner friendly, developer oriented information related to building Alexa Skills sign up for our organizations mailing list below! We promise not to spam!</p>
+<h3> Download ngrok </h3>
+
+<p> ngrok is a software that establishes secure tunnels from a public endpoint to a locally running network service, and will be used for testing the Alexa skill. Download ngrok for your machine and be sure to unzip the file to a location you can remember: https://ngrok.com/download</p>
+
+<h3> Sign up for Amazon Developer </h3>
+
+<p> Finally, create an acconunt with Amazon Developer: https://developer.amazon.com/</p>
+
+  <p>All done! <a href="http://linhchinguyen.com/"> Ada</a> and I hope to see you at the workshop. If you have any questions please place them in the comments section below.</p>
+
+If you would like to keep updated about all beginner friendly, developer oriented information related to building Alexa Skills sign up for our organizations mailing list below! We promise not to spam!</p>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -77,4 +116,3 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 
 {% endblock %}
-                            
