@@ -22,4 +22,8 @@ def tutorials():
 def first_hackathon_project():
     return render_template('FirstProject.html')
 
+@application.route('/Hack-Princeton-Alexa')
+def hack_princeton_alexa():
+    return render_template('HackPrincetonAlexa.html')
+    
 
